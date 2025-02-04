@@ -1,0 +1,32 @@
+2025-02-04 19:45:34.832 -03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-02-04 19:45:34.942 -03:00 [INF] Now listening on: http://localhost:5175
+2025-02-04 19:45:34.945 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-04 19:45:34.945 -03:00 [INF] Hosting environment: Development
+2025-02-04 19:45:34.945 -03:00 [INF] Content root path: C:\Users\Eduardo\ApiAchei
+2025-02-04 19:45:47.270 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5175/ - null null
+2025-02-04 19:45:47.293 -03:00 [WRN] Failed to determine the https port for redirect.
+2025-02-04 19:45:47.298 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5175/ - 404 0 null 30.8897ms
+2025-02-04 19:45:47.310 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5175/, Response status code: 404
+2025-02-04 19:46:37.659 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5175/swagger - null null
+2025-02-04 19:46:37.673 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5175/swagger - 301 0 null 13.8523ms
+2025-02-04 19:46:37.677 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5175/swagger/index.html - null null
+2025-02-04 19:46:37.715 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5175/swagger/index.html - 200 null text/html;charset=utf-8 37.9463ms
+2025-02-04 19:46:37.811 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5175/swagger/swagger-ui.css - null null
+2025-02-04 19:46:37.813 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5175/swagger/index.css - null null
+2025-02-04 19:46:37.814 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5175/swagger/swagger-ui-bundle.js - null null
+2025-02-04 19:46:37.816 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5175/swagger/swagger-ui-standalone-preset.js - null null
+2025-02-04 19:46:37.816 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5175/swagger/index.js - null null
+2025-02-04 19:46:37.817 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5175/swagger/index.js - 200 null application/javascript;charset=utf-8 1.0436ms
+2025-02-04 19:46:37.832 -03:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-02-04 19:46:37.833 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5175/swagger/index.css - 200 202 text/css 19.9768ms
+2025-02-04 19:46:37.837 -03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-02-04 19:46:37.837 -03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-02-04 19:46:37.840 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5175/swagger/swagger-ui-standalone-preset.js - 200 230007 text/javascript 24.2095ms
+2025-02-04 19:46:37.840 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5175/swagger/swagger-ui.css - 200 152035 text/css 29.2502ms
+2025-02-04 19:46:37.847 -03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-02-04 19:46:37.847 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5175/swagger/swagger-ui-bundle.js - 200 1426050 text/javascript 33.1236ms
+2025-02-04 19:46:38.086 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5175/swagger/v1/swagger.json - null null
+2025-02-04 19:46:38.101 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5175/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.145ms
+2025-02-04 19:46:38.112 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5175/swagger/favicon-32x32.png - null null
+2025-02-04 19:46:38.112 -03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-02-04 19:46:38.113 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5175/swagger/favicon-32x32.png - 200 628 image/png 1.2993ms

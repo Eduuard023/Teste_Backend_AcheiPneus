@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiAchei")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd64b631574a6659a28f5f9faed13369cead1bdc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9fb781ba0ee6e3fbcf9f575fad36be5842c8c9bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiAchei")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiAchei")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
