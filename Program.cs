@@ -2,11 +2,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using Serilog;
 using ApiAchei.Data;
-using ApiAchei.Models;
-
+using ApiAchei.Repositories;
 var builder = WebApplication.CreateBuilder(args);
 
-// Serilog 
+//  Serilog 
 Log.Logger = new LoggerConfiguration()
     .WriteTo.Console()
     .WriteTo.File("logs/app.log", rollingInterval: RollingInterval.Day)
@@ -16,6 +15,11 @@ builder.Host.UseSerilog();
 // Data Base
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// repositórios
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<IAttributeRepository, AttributeRepository>();
 
 // controllers
 builder.Services.AddControllers();
