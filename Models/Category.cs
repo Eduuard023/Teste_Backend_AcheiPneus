@@ -1,5 +1,3 @@
-using ApiAchei.Models;
-
 namespace ApiAchei.Models
 {
     public class Category
