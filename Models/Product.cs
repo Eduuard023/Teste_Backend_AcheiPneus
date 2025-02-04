@@ -7,6 +7,6 @@ namespace ApiAchei.Models
         public decimal Price { get; set; }
         public int? CategoryId { get; set; }
         public Category? Category { get; set; }
-        public List<Attribute> Attribute { get; set; } = new();
+        public List<Attribute> Attributes { get; set; } = new();
     }
 }
